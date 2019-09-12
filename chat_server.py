@@ -11,7 +11,7 @@ server_socket.bind((host,port))
 server_socket.listen()
 
 socket_list=[server_socket]#list of all clients,server is already placed
-clients={}#client socket info will be the key and user data like usernaem will be the value.
+clients={}#client socket info will be the key and user data like username will be the value.
 
 
 def recieve_message(client_socket):
